@@ -8,7 +8,7 @@ def browse_for_csv():
 
     # Open a file dialog and filter to show only CSV files
     file_path = filedialog.askopenfilename(
-        filetypes=[("CSV files", "*.csv")],
+        filetypes=[("CSV files", "*.csv")], 
         title="Select a CSV file"
     )
 
